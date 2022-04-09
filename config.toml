@@ -1,0 +1,24 @@
+base_url = "https://iamdejan.my.id"
+
+title = "Giovanni Dejan"
+
+compile_sass = true
+build_search_index = true
+
+theme = "kodama-theme"
+
+[markdown]
+highlight_code = true
+
+[extra]
+
+avatar = "static/img/avatar.jpg"
+favicon = "static/img/avatar.jpg"
+
+email = "giovanni.dejan.1998[at]gmail.com"
+
+contact_in_index = true
+
+menu_items = [
+  { path = "#contacts", name = "Contact" }
+]
