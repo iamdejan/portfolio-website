@@ -6,9 +6,10 @@ page_template="simple-page.html"
 [extra]
 title = "Backend engineer"
 
-experiences = [
-  "Middle Mile team, Ninja Van",
-  "Fund Domain, DANA Indonesia"
+interests = [
+  "Distributed systems",
+  "Cloud infrastructure",
+  "Kubernetes"
 ]
 
 [[extra.education.courses]]
