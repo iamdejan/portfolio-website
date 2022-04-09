@@ -2,8 +2,7 @@ base_url = "https://iamdejan.my.id"
 
 title = "Giovanni Dejan"
 
-compile_sass = true
-build_search_index = true
+build_search_index = false
 
 theme = "kodama-theme"
 

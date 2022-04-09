@@ -1,36 +1,20 @@
 +++
 title = "Home"
-date = 2020-07-09
+date = 2022-04-09
 page_template="simple-page.html"
 
 [extra]
-title = "Software engineering expert"
+title = "Backend engineer"
 
-interests = [
-  "Parallel Task Scheduling",
-  "Simulation and Modeling",
-  "Reproducibility"
+experiences = [
+  "Middle Mile team, Ninja Van",
+  "Fund Domain, DANA Indonesia"
 ]
 
 [[extra.education.courses]]
-  course = "PhD Computer Science"
-  institution = "Grenoble Université Alpes"
+  course = "Bachelor in Computer Science"
+  institution = "Bina Nusantara University"
   year = 2020
-
-[[extra.education.courses]]
-  course = "Master Degree"
-  institution = "Université Joseph-Fourier"
-  year = 2016
-
-[[extra.education.courses]]
-  course = "Master 1"
-  institution = "Université Lyon 1"
-  year = 2015
-
-[[extra.education.courses]]
-  course = "Bachelor in Computer Science and Mathematics"
-  institution = "Université Lyon 1"
-  year = 2014
 
 [[extra.avatar_icons]]
   icon = "linkedin"
@@ -40,7 +24,6 @@ interests = [
   link = "https://medium.com/@giovanni.dejan"
 +++
 
-Hello, my name is Adrien Faure, I recently finished a PhD in computer science.
+Hello, my name is Giovanni Dejan. I am a software engineer, mainly in backend but currently learning infra as well.
 
-My PhD is about resources management for High Performance Computing platforms.
-Today, I am interested in distributed systems, such as cloud and edge systems.
+I was first taught of C++ language (as you can see in [my post](https://blog.devgenius.io/your-first-programming-language-76d5a3312eb0) where I shared my first experience in programming), but over the time, I learned Java, Python, and Golang. Currently, I'm learning Kubernetes and Terraform as well.
