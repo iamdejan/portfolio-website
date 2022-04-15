@@ -7,7 +7,7 @@ path = "contacts"
 [extra]
 links = [
   {icon = "github", name = "Github", link = "https://github.com/iamdejan"},
-  {icon = "linkedin", name = "Linkedin", link = "https://www.linkedin.com/in/adrien-faure-9958978b/"},
+  {icon = "linkedin", name = "Linkedin", link = "https://www.linkedin.com/in/iamdejan/"},
   {icon = "telegram", name = "Telegram", link = "https://t.me/iamdejan"},
 ]
 +++
