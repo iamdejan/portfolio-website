@@ -14,10 +14,7 @@ highlight_code = true
 avatar = "static/img/avatar.jpg"
 favicon = "static/img/avatar.jpg"
 
-email = "giovanni.dejan.1998@gmail.com"
-
-contact_in_index = true
+contact_in_index = false
 
 menu_items = [
-  { path = "#contacts", name = "Contact" }
 ]
