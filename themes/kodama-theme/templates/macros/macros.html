@@ -29,7 +29,7 @@
     <div class="sm:basis-2/5 grow">
       <ul>
         {% for page in section.pages %}
-          {% if page.extra.featured -%}
+          {% if title != 'Featured Posts' or page.extra.featured -%}
             <li class="pb-3">
               {{ blog::page_summary(page=page, show_wordcount=show_wordcount) }}
             </li>
