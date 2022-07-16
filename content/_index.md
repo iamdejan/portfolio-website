@@ -5,6 +5,7 @@ page_template="simple-page.html"
 
 [extra]
 title = "Backend engineer"
+featured = "false"
 
 interests = [
   "Distributed systems",
@@ -23,6 +24,12 @@ interests = [
 [[extra.avatar_icons]]
   icon = "medium"
   link = "https://medium.com/@giovanni.dejan"
+[[extra.avatar_icons]]
+  icon = "github"
+  link = "https://github.com/iamdejan"
+[[extra.avatar_icons]]
+  icon = "telegram"
+  link = "https://t.me/iamdejan"
 +++
 
 Hello, my name is Giovanni Dejan. I am a software engineer, mainly in backend but currently learning infra as well.
