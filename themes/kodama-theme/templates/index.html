@@ -61,8 +61,8 @@
   {% block index_summaries -%}
   {% set_global index = 0 -%}
   {% for ssection in section.subsections -%}
-  {% set ssection_data = get_section(path=ssection, metadata_only=true) -%}
-  {% if ssection_data.extra.index_show -%}
+    {% set ssection_data = get_section(path=ssection, metadata_only=true) -%}
+    {% if ssection_data.extra.index_show -%}
       <div class="{% if index % 2 != 0%} bg-white {% else %} bg-gray-50 {% endif %}">
         <div class="container max-w-4xl mx-auto px-4 py-8">
           {% set title = ssection_data.title -%}
@@ -76,15 +76,5 @@
     {% endif -%}
   {% endfor -%}
   {% endblock index_summaries -%}
-
-  {% block index_contact -%}
-    {% if config.extra.contact_in_index and config.extra.contact_in_index == true -%}
-    <div class="{% if index % 2 != 0%} bg-white {% else %} bg-gray-50 {% endif %}">
-      <div class="container max-w-4xl mx-auto px-4">
-      {{ macros::contact_from_config(section=section, config=config) }}
-      </div>
-    </div>
-    {% endif -%}
-  {% endblock index_contact -%}
 
 {% endblock content-%}
