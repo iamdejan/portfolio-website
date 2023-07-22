@@ -1,7 +1,7 @@
 +++
 
 title = "Software Engineer at AwanTunai, Supplier Ops"
-date = "2022-07-22"
+date = "2022-05-02"
 
 [extra]
 summary = "Supplier Ops team handled warehouse management and transactions for suppliers' dashboard."
